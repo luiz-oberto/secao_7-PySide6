@@ -9,7 +9,7 @@ from PySide6.QtWidgets import QApplication, QPushButton
 app = QApplication(sys.argv)
 
 botao = QPushButton('Texto do botão')
-botao.setStyleSheet('font-size: 40px;')
+botao.setStyleSheet('font-size: 80px;')
 botao.show() # Adiciona o widget na hieraquia e exibe a janela
 
 botao2 = QPushButton('Botão 2')
